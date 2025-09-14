@@ -1,6 +1,6 @@
 @Library('Shared') _
 pipeline {
-    agent any
+    agent { label 'built-in' }
     
     environment{
         SONAR_HOME = tool "Sonar"
@@ -32,7 +32,7 @@ pipeline {
         stage('Git: Code Checkout') {
             steps {
                 script{
-                    code_checkout("https://github.com/AKM-2004/Jenkins-Shared-LIB.git","main")
+                    code_checkout("https://github.com/AKM-2004/End-to-End-devops-life-cycle.git","main")
                 }
             }
         }
@@ -68,13 +68,27 @@ pipeline {
                 }
             }
         }
+          stage("Validate AWS Credentials") {
+            steps {
+                script {
+                    sh '''
+                        echo "Testing AWS credentials..."
+                        aws sts get-caller-identity
+                        echo "AWS credentials are working!"
+                    '''
+                }
+            }
+        }
         
         stage('Exporting environment variables') {
             parallel{
                 stage("Backend env setup"){
                     steps {
                         script{
+                            sh "ls"
+                            
                             dir("Automations"){
+                            
                                 sh "bash updatebackendnew.sh"
                             }
                         }
@@ -84,6 +98,7 @@ pipeline {
                 stage("Frontend env setup"){
                     steps {
                         script{
+                            sh "ls -la frontend"
                             dir("Automations"){
                                 sh "bash updatefrontendnew.sh"
                             }
