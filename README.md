@@ -4,22 +4,21 @@ A comprehensive DevSecOps implementation featuring automated CI/CD pipelines wit
 
 ## 📹 Project Demo
 
-<div align="center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="DevOps Pipeline Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+[![DevOps Pipeline Demo](https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
-> **Video plays directly above - no redirect needed!**
+> **Click the thumbnail above to watch the complete DevSecOps pipeline demonstration**
 
-### For GitHub Pages or HTML rendering:
-```html
-<div align="center">
-  <iframe width="100%" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
-          title="DevOps Pipeline Demo" frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-          allowfullscreen>
-  </iframe>
-</div>
-```
+### 🎥 What you'll see in the demo:
+- **CI Pipeline**: Automated builds, testing, and security scans
+- **Security Integration**: OWASP, SonarQube, and Trivy in action
+- **Container Deployment**: Docker build and push to registry
+- **GitOps Workflow**: ArgoCD deploying to AWS EKS
+- **Monitoring Setup**: Prometheus and Grafana dashboards
+- **Email Notifications**: Pipeline status alerts
+
+### 📺 Alternative Demo Formats:
+[![Demo GIF](https://img.shields.io/badge/GIF%20Demo-View-blue?style=for-the-badge&logo=github)](https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit-green?style=for-the-badge&logo=github-pages)](https://akm.github.io/devops_end_to_end)
 
 ## 🏗️ Architecture Overview
 
