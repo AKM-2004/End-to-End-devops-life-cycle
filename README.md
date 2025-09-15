@@ -2,7 +2,7 @@
 
 A comprehensive DevSecOps implementation featuring automated CI/CD pipelines with integrated security scanning, quality gates, and monitoring on AWS EKS.
 
-## 📹 Project Demo
+## 📹 Project Demo(Click on the picture to see demo video)
 
 [![DevOps Pipeline Demo](assets/wholepipeline.png)](https://www.youtube.com/watch?v=PGu7OSA8Ps4)
 
