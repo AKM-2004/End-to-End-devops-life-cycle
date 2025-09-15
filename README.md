@@ -4,15 +4,21 @@ A comprehensive DevSecOps implementation featuring automated CI/CD pipelines wit
 
 ## 📹 Project Demo
 
-[![DevOps Pipeline Demo](https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+<div align="center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="DevOps Pipeline Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
-> **Click the image above to watch the demo video**
+> **Video plays directly above - no redirect needed!**
 
-### Alternative Embed (for platforms that support it):
+### For GitHub Pages or HTML rendering:
 ```html
-<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-  <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg" alt="DevOps Pipeline Demo" width="100%">
-</a>
+<div align="center">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+          title="DevOps Pipeline Demo" frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen>
+  </iframe>
+</div>
 ```
 
 ## 🏗️ Architecture Overview
