@@ -392,9 +392,12 @@ eksctl delete cluster --name=wanderlust --region=us-west-1
 4. Add tests if applicable
 5. Submit a pull request
 
+<<<<<<< HEAD
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+=======
+>>>>>>> ba49dc55e996c5cca2f6dbe8fa571f6d451d35dd
 
 ## 🙏 Acknowledgments
 
@@ -403,6 +406,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - AWS for cloud infrastructure
 - Open source security tools (OWASP, Trivy, SonarQube)
 
+<<<<<<< HEAD
 ## 📞 Support
 
 For questions and support:
@@ -410,6 +414,8 @@ For questions and support:
 - Contact: [your-email@example.com]
 
 ---
+=======
+>>>>>>> ba49dc55e996c5cca2f6dbe8fa571f6d451d35dd
 
 ⭐ **Star this repository if you found it helpful!**
 
