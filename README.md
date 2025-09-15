@@ -4,15 +4,16 @@ A comprehensive DevSecOps implementation featuring automated CI/CD pipelines wit
 
 ## 📹 Project Demo
 
-https://drive.google.com/file/d/1your-video-id/view
+[![DevOps Pipeline Demo](https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
-> **Note**: Replace the above link with your actual Google Drive video link. To embed the video properly, you can also use:
-> ```html
-> <video width="100%" controls>
->   <source src="https://drive.google.com/uc?export=download&id=YOUR_VIDEO_ID" type="video/mp4">
->   Your browser does not support the video tag.
-> </video>
-> ```
+> **Click the image above to watch the demo video**
+
+### Alternative Embed (for platforms that support it):
+```html
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+  <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg" alt="DevOps Pipeline Demo" width="100%">
+</a>
+```
 
 ## 🏗️ Architecture Overview
 
