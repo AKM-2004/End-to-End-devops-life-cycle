@@ -4,7 +4,7 @@ A comprehensive DevSecOps implementation featuring automated CI/CD pipelines wit
 
 ## 📹 Project Demo(Click on the picture to see demo video)
 
-[![DevOps Pipeline Demo](assets/wholepipeline.png)](https://www.youtube.com/watch?v=PGu7OSA8Ps4)
+[![DevOps Pipeline Demo](assets/1.webp)](https://www.youtube.com/watch?v=PGu7OSA8Ps4)
 
 > **Click the thumbnail above to watch the complete DevSecOps pipeline demonstration**
 
